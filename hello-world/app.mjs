@@ -10,7 +10,7 @@
  * @returns {Object} object - API Gateway Lambda Proxy Output Format
  * 
  */
-
+  
 export const lambdaHandler = async (event, context) => {
     const response = {
       statusCode: 200,
